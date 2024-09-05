@@ -8,7 +8,7 @@ For the challenge, we collected a mutlimodal social intention dataset containing
 
 **2. Dataset Description**
 
-The dataset comprises two files and a floder: train.json, test.json and image. The test.json file does not contain intentions. Participants are required to generate intentions for the test instances based on the provided text and image data. Each instance in the train.txt and test.json is represented as a dictionary, delineating the attributes of an individual tweet.. The dictionary includes the following fields, each with its corresponding meanings:
+The dataset comprises two files and a floder: **train.json**, **test.json** and **image**. The test.json file does not contain intentions. Participants are required to generate intentions for the test instances based on the provided text and image data. Each instance in the train.txt and test.json is represented as a dictionary, delineating the attributes of an individual tweet.. The dictionary includes the following fields, each with its corresponding meanings:
 | Field            | Meaning                                                                                                                  |
 |------------------|--------------------------------------------------------------------------------------------------------------------------|
 | intention_labels | This field contains a list of labels. if `intention_labels[3]` equals 1, it signifies that `Intention 3` is the ground truth for the intention of this tweet. |
@@ -19,6 +19,7 @@ The dataset comprises two files and a floder: train.json, test.json and image. T
 
 
 **3. Metric**
+
 The evaluation metric is the average BERT score(reported as percentages) for the 10 different aspects of the generated intentions.
 
-Our benchmark has been published in the corresponding competition of IEEE BigDATA2024: Multimodal Intention Recognition in Social Media. Everyone is welcome to sign up for the competition.
+Our benchmark has been published in the corresponding competition of IEEE BigDATA2024: Multimodal Intention Recognition in Social Media. Everyone is welcome to sign up for the competition.(https://www3.cs.stonybrook.edu/~ieeebigdata2024/BigDataCupChallenges.html)
