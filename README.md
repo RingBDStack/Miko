@@ -8,7 +8,7 @@ For the challenge, we collected a mutlimodal social intention dataset containing
 
 **2. Dataset Description**
 
-The dataset comprises two files and a floder: **train.json**, **test.json** and **image**. The test.json file does not contain intentions. Participants are required to generate intentions for the test instances based on the provided text and image data. Each instance in the train.txt and test.json is represented as a dictionary, delineating the attributes of an individual tweet.. The dictionary includes the following fields, each with its corresponding meanings:
+The dataset comprises two files and a floder: **train.json**, **test.json** and **image**(https://drive.google.com/file/d/1yaToKQ2FqnFwdzQedMuT9nEp8UWRkpmA/view?usp=drive_link). The test.json file does not contain intentions. Participants are required to generate intentions for the test instances based on the provided text and image data. Each instance in the train.txt and test.json is represented as a dictionary, delineating the attributes of an individual tweet.. The dictionary includes the following fields, each with its corresponding meanings:
 | Field            | Meaning                                                                                                                  |
 |------------------|--------------------------------------------------------------------------------------------------------------------------|
 | intention_labels | This field contains a list of labels. if `intention_labels[3]` equals 1, it signifies that `Intention 3` is the ground truth for the intention of this tweet. |
